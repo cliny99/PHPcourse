@@ -1,0 +1,5 @@
+#F0D3E1 Rosa
+#FEFEFE Blanco
+#94D8F0 Celeste
+#3EB3E6 Azul
+#3A3937 Negro

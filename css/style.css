@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Titulo';
+    src: url(../css/letras/titulo-opera.woff);
+}
+@font-face {
+    font-family: "Header";
+    src: url(../css/letras/Believer-3z1Ry-opera.woff);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #F0D3E1;
+    padding: 0px;
+}
+header{
+    background-color: #AEE6F7;
+    width: 100%;
+    height: 100%;
+}
+main{
+    text-align: center;
+}
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 1.5rem 0;
+}
+.logo-png{
+    width: 120px;
+    height: 120px;
+}
+.logo-main{
+    width: 100%;
+    height: 500px;
+}
+.titulo-header{/*El efecto es que siempre se aplicará el estilo definido como !important, aunque luego se pueda sobrescribir con otro estilo más tarde en la misma declaración o en otra distinta. */
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Header';
+    color: #f7cee2;
+}
+.nav-principal a{
+    font-family: "Caprasimo", serif;
+    color: #f7c5dd;
+}
+.nav-principal a {
+    margin-right: 20px;
+}
+.section1{
+    background: linear-gradient(to bottom, #00000000, #00000067), url(../css/img/detrás.gif);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.titulo2{
+    font-family: 'Titulo';
+    font-size: 100px;
+    color: #f493c2; /* Hace el texto transparente para que solo se vea la sombra */
+    text-shadow: 0 0 5px #3EB3E6 ;
+}
+.boton-registro{
+        min-width: 130px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 20px;
+        border: 2px solid #3EB3E6;
+        background: #f493c2;
+}
+.boton-registro:hover {
+    background: #fff;
+    color: #ff0a78
+  }
+.section2{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition-delay: 10s;
+}
+.buscador{
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #5ccaf8;
+}
+.div-form{
+    height: 102px;
+}
+.cuadro-buscador{
+    height: 25px;
+}
+.texto{
+    border-radius: 15%;
+}
+.div-form .form label span{
+    padding:10px;
+    pointer-events: none;
+    position:absolute;
+    left:0;
+    top:0;
+    transition: 0.2s;
+    transition-timing-function: ease;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    opacity:0.5;
+
+}
+.section3{
+    
+}
+.section4{
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+footer{
+    text-align: center;
+}
+/*Los id se llaman con # en css/
