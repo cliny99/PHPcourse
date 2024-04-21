@@ -9,11 +9,12 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
-    background-color: #F0D3E1;
     padding: 0px;
+    background-color: #ffe5f1c5;
 }
 header{
     background-color: #AEE6F7;
@@ -41,19 +42,30 @@ main{
 }
 .titulo-header{/*El efecto es que siempre se aplicará el estilo definido como !important, aunque luego se pueda sobrescribir con otro estilo más tarde en la misma declaración o en otra distinta. */
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Header';
-    color: #f7cee2;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #38c4ee;
+}
+.nav-principal{
+    display: flex;
 }
 .nav-principal a{
     font-family: "Caprasimo", serif;
     color: #f7c5dd;
-}
-.nav-principal a {
+    text-shadow: 2px 2px 5px #b6045a;
     margin-right: 20px;
+    padding: 5px;
+    text-decoration: none;
 }
+.nav-principal a:hover{
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px 5px #bd7b9b;
+    transition: 0.5s;
+}
+
 .section1{
-    background: linear-gradient(to bottom, #00000000, #00000067), url(../css/img/detrás.gif);
+    background: linear-gradient(to bottom, #fcfcfc00, #ffe5f100), url(../css/img/detrás.gif);
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -62,76 +74,93 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-bottom: 0;
 }
 .titulo2{
     font-family: 'Titulo';
-    font-size: 100px;
+    font-size: 80px;
     color: #f493c2; /* Hace el texto transparente para que solo se vea la sombra */
     text-shadow: 0 0 5px #3EB3E6 ;
 }
 .boton-registro{
-        min-width: 130px;
-        height: 40px;
-        color: #fff;
-        padding: 5px 10px;
-        font-weight: bold;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        position: relative;
-        display: inline-block;
-        outline: none;
-        border-radius: 20px;
-        border: 2px solid #3EB3E6;
-        background: #f493c2;
+    color: #65dbff;
+    font-weight: bolder;
+    background-color: #f493c2;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: none;
 }
 .boton-registro:hover {
     background: #fff;
-    color: #ff0a78
+    color: #ff0a78;
+    box-shadow: 0px 0px 15px 5px #38c4ee;
+    transition: 0.5s;
   }
 .section2{
+    background: linear-gradient(to top, #ffe5f1c5, #ffffff);
     height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     transition-delay: 10s;
+    margin-bottom: 100px;
 }
-.buscador{
+.titulo-buscador{
     font-family: "Caprasimo", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
-    color: #5ccaf8;
-}
-.div-form{
-    height: 102px;
+    font-size: 40px;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px #63c0fd;
 }
 .cuadro-buscador{
-    height: 25px;
+    height: 50px;
+    display: inline;
 }
 .texto{
-    border-radius: 15%;
+    width: 300px; 
+    padding: 15px; 
+    border: 2px solid #63c0fd; 
+    border-radius: 25px;
+    color: #f493c2;
 }
-.div-form .form label span{
-    padding:10px;
-    pointer-events: none;
-    position:absolute;
-    left:0;
-    top:0;
-    transition: 0.2s;
-    transition-timing-function: ease;
-    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
-    opacity:0.5;
-
+.boton-buscar{
+    background-color: #56cafc;
+    width: 100px; 
+    padding: 20px; 
+    border: 2px solid #ffffff; 
+    border-radius: 25px;
+    color: white;
+}
+.boton-buscar:hover{
+    box-shadow: 0px 0px 25px 3px #56cafc;
+    transition: 0.5s;
 }
 .section3{
-    
+    background-color: #ffe5f1c5;
 }
 .section4{
+    background-color: #ffe5f1c5;
     overflow-x: scroll;
     overflow-y: hidden;
 }
+hr{
+    border: 1px solid #56cafc;
+    width: 80%;
+    height: 10px;
+    background-color: #38c4ee;
+    border-radius: 20px;
+    margin: auto;
+}
 footer{
+    background-color: #5ccaf8;
     text-align: center;
 }
-/*Los id se llaman con # en css/
+.flecha{
+    position: fixed;
+}
+/*Los id se llaman con # en css*/ 

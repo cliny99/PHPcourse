@@ -16,29 +16,36 @@
 <body>
     <header>
      <nav class="nav-header">
-        <a href="#"><img src="css/img/home.png" class="logo-png"></a>
+        <a href=""><img src="css/img/home.png" class="logo-png"></a>
         <div class="titulo-header">
             <p>Cinnamorrol's Cotton Candy Cosmos</p>
         </div>
         <div class="nav-principal">
-            <a href="">Tendencias</a>
-            <a href="">Registro</a>
-            <a href="">Inicio de Sesión</a>
+            <div class="contenedor-nav">
+                <a href="">Tendencias</a>
+            </div>
+            <div class="contenedor-nav">
+                <a href="">Registro</a>
+            </div>
+            <div class="contenedor-nav">
+                <a href="">Inicio de Sesión</a>
+            </div>
         </div>
+        
         </nav>     
     </header>
     <main>
-        <section class="section1" data-aos="zoom-in">
+        <section class="section1" data-aos="zoom-in" data-aos-duration="2000">
             <p class="titulo2">¡Todo sobre Cinnamoroll!</p>
-            <input type="submit" value="Registrarse" class="boton-registro">
+            <input type="submit" value="¡Registrate!" class="boton-registro">
         </section>
         <section class="section2">
-            <div data-aos="fade-up" class="div-form">
-                <p class="buscador">¿Qué estás buscando?</p>
+            <div data-aos="fade-up" data-aos-duration="1000" class="div-form">
+                <p class="titulo-buscador">¿Qué estás buscando?</p>
                 <div class="cuadro-buscador">
                     <input class="texto" type="text" placeholder="Ej: Remeras">
                 </div>
-             <input type="submit" value="Buscar">
+             <input class="boton-buscar" type="submit" value="Buscar">
             </div>
             
         </section>
@@ -65,7 +72,10 @@
         <a href="">Preguntas frecuentes</a>
         <a href="">Términos y condiciones</a>
         </nav>
-        <a href="#main">Flecha</a>
+        <div class="flecha">
+            <a href="#main">Flecha</a>
+        </div>
+        
     </footer>
 </body> 
 <!--scripts-->
