@@ -13,7 +13,7 @@
 }
 
 body{
-    background-color: #ffe5f1c5;
+    background-color: #ffe5f1c5 !important;
 }
 header{
     background-color: #AEE6F7;
@@ -157,10 +157,16 @@ main{
     display: flex;
 }
 .card{
-    margin-right: 10px;
+    margin-right: 20px;
+    border: none !important;
 }
 .tendencia-img{
     height: 10px;
+}
+.card:hover{
+    transition: 0.5s;
+    transform: scale(0.95);
+    box-shadow: 0px 0px 12px 5px #AEE6F7;
 }
 .boton-section3{
     background-color: #56cafc;
@@ -222,11 +228,18 @@ main{
     border-radius: 20px;
     margin: auto;
 }
+.flecha{
+    position: fixed;
+    cursor: pointer;
+    justify-content: end;
+}
+.flecha img{
+    width: 50px;
+    height: 50px;
+}
 footer{
     background-color: #5ccaf8;
     text-align: center;
 }
-.flecha i{
-    position: fixed;
-}
+
 /*Los id se llaman con # en css*/ 
