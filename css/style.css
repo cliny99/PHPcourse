@@ -105,8 +105,8 @@ main{
     justify-content: center;
     align-items: center;
     transition-delay: 10s;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
 .titulo-buscador{
     font-family: "Caprasimo", serif;
@@ -144,19 +144,76 @@ main{
 .section3{
     background-color: #ffe5f1c5;
 }
-.row row-cols-2{
+.titulo-section3{
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px #63c0fd;
+}
+.container{
     display: flex;
+}
+.card{
+    margin-right: 10px;
 }
 .tendencia-img{
     height: 10px;
 }
+.boton-section3{
+    background-color: #56cafc;
+    width: 100px; 
+    padding: 5px; 
+    border: 2px solid #ffffff; 
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.boton-section3:hover{
+    box-shadow: 0px 0px 25px 3px #56cafc;
+    transition: 0.5s;
+    transform: scale(0.90);
+}
 .section4{
     background-color: #ffe5f1c5;
+    
+}
+.container2{
+    display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px 0px 40px 0px;
+}
+.card2 {
+    display: flex;
+    margin-right: 3rem;
+}
+.titulo-section4{
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px #63c0fd;
+}
+.img-friends{
+    width: 15rem;
+    height: 15rem;
+    position: relative;
+    
 }
 .hr1 hr{
-   border: 1px solid #56cafc;
+    border: 1px solid #56cafc;
     width: 80%;
     height: 10px;
     background-color: #38c4ee;
