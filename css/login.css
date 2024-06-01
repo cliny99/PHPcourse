@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Titulo';
+    src: url(../css/letras/titulo-opera.woff);
+}
+@font-face {
+    font-family: "Header";
+    src: url(../css/letras/Believer-3z1Ry-opera.woff);
+}
+
+body{
+    background-color: #aee6f7 !important;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+}
+
+.container{
+    width: 500px !important;
+    height: 400px;
+    background-color: #ffe5f1c5;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.titulo-sesion{
+    display: flex;
+    justify-content: center;
+    font-family: 'Titulo';
+    font-size: 40px;
+    color: #f493c2; /* Hace el texto transparente para que solo se vea la sombra */
+    text-shadow: 0 0 5px #3EB3E6 ;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+input:not(.check):not(.boton){
+    font-family: "Caprasimo", serif;
+    width: 400px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border-style: none;
+}
+input:not(.check):not(.boton), select{
+    padding-left: 15px;
+    background-color: #f493c2;
+}
+input[type="email"]::placeholder, input[type="password"]::placeholder{
+    color: #aee6f7;
+    opacity: 0.75;
+}
+input[type="email"]:focus,input[type="password"]:focus{
+    outline: none;
+    border: none;
+}
+.boton-entrar{
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    border-radius: 15px;
+   border-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+    padding: 0.8rem 0.8rem;
+    font-size: 0.8rem;
+    background-color: #aee6f7;
+}
+.boton:hover{
+    transition: 0.5s;
+    background-color: #42d3ff;
+    color:#f493c2;
+}
+
+.titulo-registro{
+    text-decoration: none;
+    color: #f493c2;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-registro:hover{
+    color: #42d3ff;
+}
