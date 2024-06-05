@@ -1,0 +1,48 @@
+{
+    "id": 1,
+    "nombre": "Cinnamoroll",
+    "especie": "Perrito",
+    "descripcion": "Un perrito blanco con orejas largas que le permiten volar. Es el personaje principal y le encanta comer rollos de canela.",
+    "cumpleanos": "6 de marzo",
+    "color": "Blanco"
+},
+{
+    "id": 2,
+    "nombre": "Mocha",
+    "especie": "Perrito",
+    "descripcion": "Una perrita elegante y femenina que ama la moda y siempre está al día con las últimas tendencias.",
+    "cumpleanos": "20 de febrero",
+    "color": "Marrón"
+},
+{
+    "id": 3,
+    "nombre": "Expresso",
+    "especie": "Perrito",
+    "descripcion": "Un perrito sabio e inteligente que ama leer libros y beber expreso.",
+    "cumpleanos": "4 de diciembre",
+    "color": "Marrón oscuro"
+},
+{
+    "id": 4,
+    "nombre": "Milk",
+    "especie": "Perrito",
+    "descripcion": "Un perrito bebé que admira a Cinnamoroll y quiere ser como él cuando crezca.",
+    "cumpleanos": "17 de enero",
+    "color": "Blanco"
+},
+{
+    "id": 5,
+    "nombre": "Capuccino",
+    "especie": "Perrito",
+    "descripcion": "Un perrito alegre y vivaz que ama los capuchinos y tiene talento para hacer arte en la espuma de leche.",
+    "cumpleanos": "27 de junio",
+    "color": "Marrón claro"
+},
+{
+    "id": 6,
+    "nombre": "Chiffon",
+    "especie": "Perrito",
+    "descripcion": "Un perrito deportivo y enérgico que ama practicar deportes y estar activo.",
+    "cumpleanos": "14 de enero",
+    "color": "Amarillo"
+}

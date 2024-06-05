@@ -41,7 +41,7 @@ main{
 }
 .titulo-header{/*El efecto es que siempre se aplicará el estilo definido como !important, aunque luego se pueda sobrescribir con otro estilo más tarde en la misma declaración o en otra distinta. */
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Header';
     color: #ffffff;
     text-shadow: 2px 2px 5px #38c4ee;
