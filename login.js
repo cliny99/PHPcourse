@@ -3,23 +3,22 @@ const form = document.querySelector('form');
 form.addEventListener("submit",(event) =>{
     if (!validarForm()) {
         console.log("Error, corrija sus errores")
-        alert("Error, campo vacío.")
-        event.preventDefault();
-
         Swal.fire({
             icon: "error",
             title: "Oops...",
-            text: "Something went wrong!",
-            footer: '<a href="#">Why do I have this issue?</a>'
+            text: "Rellene los campos solicitados",
+            footer: '<a href="#">¿Por qué necesitan mis datos?</a>'
           });
+        event.preventDefault();
+
     }else{
         console.log("Válido, enviando datos...")
-        alert("¡Validación completada!")
         Swal.fire({
-            title: "Good job!",
-            text: "You clicked the button!",
+            title: "Validación completada!",
+            text: "En breve entrarás con tu cuenta",
             icon: "success"
           });
+          event.preventDefault();
     }
 });
 

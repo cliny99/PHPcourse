@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Titulo';
+    src: url(../css/letras/titulo-opera.woff);
+}
+@font-face {
+    font-family: "Header";
+    src: url(../css/letras/Believer-3z1Ry-opera.woff);
+}
+
+body{
+    background-color: #aee6f7;
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 500px;
+    background-color: #ffe5f1c5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    width: 400px;
+}
+
+fieldset {
+    border: none;
+}
+
+.legend {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.centro {
+    margin: 10px 0;
+    font-family: 'Caprasimo', serif;
+    color: #f493c2;
+    text-shadow: 1px 1px 3px #3EB3E6;
+}
+
+.input-campo {
+    margin: 10px 0; /* El cero de más alinea el form al boton */
+    padding: 10px;
+    width: 100%; /* Ajusta el amcho */
+    box-sizing: border-box;
+    border-style: none;
+    border-radius: 15px;
+    background-color: #f493c2;
+}
+
+input[type="date"]::placeholder, input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="password"]::placeholder{
+    color: #aee6f7;
+    opacity: 0.75;
+}
+
+input[type="date"]:focus, input[type="text"]:focus, input[type="email"]:focus,input[type="password"]:focus{
+    outline: none;
+    border: none;
+}
+
+.boton {
+    width: 100%;
+    padding: 10px;
+    background-color: #aee6f7;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.boton:hover {
+    background-color: #42d3ff;
+    transition: 0.5s;
+    color: #f493c2;
+}
+
+.titulo-registro {
+    display: block;
+    text-align: center;
+    margin-top: 20px !important;
+    color: #f493c2;
+    text-shadow: 0 0 5px #3EB3E6 ;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: 'Titulo';
+}
+
+.titulo-inicio-sesion{
+    text-decoration: none;
+}
+
+.titulo-inicio-sesion:hover{
+    color: #f493c2;
+}

@@ -239,6 +239,12 @@ main{
     width: 50px;
     height: 50px;
 }
+
+.flecha img:hover{
+    transition: 0.5s;
+    width: 55px;
+    height: 55px;
+}
 .flecha{
     position: fixed;
     bottom: 20px;
@@ -247,7 +253,40 @@ main{
 }
 footer{
     background-color: #5ccaf8;
-    text-align: center;
+    text-align: end;
+    padding: 20px;
+}
+
+.nav-footer{
+    margin-right: 80px;
+}
+
+.footer{
+    text-decoration: none;
+    color: #f493c2;
+    margin-right: 15px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 3px white;
+}
+
+.footer:hover{
+    color: white;
+}
+
+.admin{
+    text-decoration: none;
+    color: #5ccaf8;
+    border: 1px solid;
+    border-style: none;
+    border-radius: 15px;
+    background-color: #f493c2;
+    padding: 10px;
+}
+
+.admin:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: #f493c2;
 }
 
 /*Los id se llaman con # en css*/ 

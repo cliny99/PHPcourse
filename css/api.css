@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Titulo';
+    src: url(../css/letras/titulo-opera.woff);
+}
+
+.titulo{
+    font-family: 'Titulo';
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 30px;
+    color: rgb(113, 229, 255);
+    text-shadow: 1px 1px 10px #ff5eaf;
+}
+
+.subtitulo{
+    font-family: 'Caprasimo', serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #ff5eaf;
+    letter-spacing: 2px;
+}
+
+#contenedorPersonajes{
+    display: flex;
+    justify-content: center;
+}
+
+#contenedorPersonajes img{
+    width: 40%;
+    height: auto;
+    border: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: #5ccaf8;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.boton input{
+    border-style: none;
+    font-size: 20px;
+    font-family: 'Caprasimo', serif;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    color: #5ccaf8;
+}
+
+.boton input:hover{
+    transition: 0.5s;
+    color: #f7c5dd;
+    background-color: #5ccaf8;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: end;
+    padding: 20px 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(255, 141, 209);
+    font-size: 20px;
+    border-width: 1px;
+    border-radius: 15px;
+    border-color: rgb(255, 141, 209);
+    background-color: azure;
+    padding: 10px;
+    margin-right: 20px;
+    font-family: 'Caprasimo', serif;
+}
+
+footer a:hover{
+    transition: 0.5s;
+    color: #5ccaf8;
+    background-color: rgb(255, 141, 209);
+}

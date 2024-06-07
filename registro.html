@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/registro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+    <script src="bower_components/aos/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <title>Cinnamoroll</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><img = src="css/img/home.png"></a>
+    </header>
+    <section class="section" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="container">
+            <form action="" method="get" class="form" onsubmit="return validarForm()">
+                <fieldset>
+                    <legend class="titulo-registro">Registro</legend>
+                    <div>
+                        <p class="centro">Usuario</p>
+                        <input type="text" name="usuario" id="usuario" placeholder="Cinnamoroll" class="input-campo">
+                    </div>
+                    <div>
+                        <p class="centro">Email</p>
+                        <input type="email" name="email" id="email" placeholder="cinnamorrol@sanrio.com" class="input-campo">
+                    </div>
+                    <div>
+                        <p class="centro">Contraseña</p>
+                        <input type="password" name="password" id="password" placeholder="CINNAcafe123" class="input-campo">
+                    </div>
+                    <div>
+                        <p class="centro">Fecha de nacimiento</p>
+                        <input type="date" name="date" id="date" class="input-campo">
+                    </div>
+                    <div class="boton-registrar">
+                        <input type="submit" value="Registrarse" class="boton">
+                    </div>
+                    <div><a href="login.html" class="titulo-inicio-sesion">Iniciar sesión</a></div>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>

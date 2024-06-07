@@ -2,15 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/api.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
     <title>API</title>
 </head>
 <body>
-    <h2>Porque somos fan de lo tierno...</h2>
-    <h3>¡Te dejamos fotos de perritos!</h3>
+    <h2 class="titulo">Porque somos fan de lo tierno...</h2>
+    <h3 class="subtitulo">¡Te dejamos fotos de perritos!</h3>
+    <div class="boton">
+        <input type="button" value="¡Dame otra foto!" onclick="obtenerImagenAleatoria()">
+    </div>
     <div id="contenedorPersonajes"></div>
-    <div id="personajes"></div>
-    <input type="button" value="¡Dame otra foto!">
     <script src="api.js"></script>
+    <footer>
+        <a href="../login.html">Inicio de sesión</a>
+        <a href="../index.html" class="volver">Volver al inicio</a>
+    </footer>
 </body>
 </html>
